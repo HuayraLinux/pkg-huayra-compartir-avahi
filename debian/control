@@ -10,7 +10,7 @@ Homepage: https://github.com/HuayraLinux/huayra-compartirweb
 
 Package: huayra-compartir-avahi
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-netifaces python-requests, avahi-utils, libglib2.0-bin, nm-adhoc-dialog
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-netifaces, python-requests, avahi-utils, libglib2.0-bin, nm-adhoc-dialog
 Description: Realiza descubrimiento de red para huayra-compartir.
  Huayra-compartir está distribuido en varios componentes, avahi es
  uno de esos componentes.
